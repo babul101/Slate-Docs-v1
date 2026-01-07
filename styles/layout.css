@@ -1,3 +1,65 @@
+/* Hide checkbox */
+#close-banner {
+  display: none;
+}
+
+/* Sticky banner */
+.upgrade-banner {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+
+  background: linear-gradient(90deg, #0f172a, #020617);
+  color: #ffffff;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Centered content */
+.banner-content {
+  grid-column: 2;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Banner link */
+.banner-content a {
+  color: #38bdf8;
+  margin-left: 6px;
+  text-decoration: none;
+}
+
+.banner-content a:hover {
+  text-decoration: underline;
+}
+
+/* Close button */
+.close-btn {
+  grid-column: 3;
+  justify-self: end;
+
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.close-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Hide banner when closed */
+#close-banner:checked + .upgrade-banner {
+  display: none;
+}
+
 /* Header */
 
 .site-header {

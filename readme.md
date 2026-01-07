@@ -1,138 +1,138 @@
-📘 SLATE Docs (Legacy)
+# 📘 SLATE Docs — Legacy Version (v1)
 
-A minimal, clean documentation website built with pure HTML & CSS — no JavaScript, no build tools.
+A clean, minimal documentation website built using only **HTML and CSS**.  
+No JavaScript. No frameworks. No build tools.
 
-This repository represents the legacy (v1) documentation, kept live for backward compatibility, while a newer enhanced version (v2) is available separately.
+> This repository contains the **legacy (v1)** documentation, which is intentionally kept live while a newer, enhanced version (**v2**) exists.
 
-🚨 Legacy Notice
+---
 
-This is the legacy version of SLATE Docs.
+## 🚨 Legacy Documentation Notice
 
-👉 New Documentation (v2):
-https://docs.yoursite.com/v2
+This is the **legacy version (v1)** of SLATE Docs.
 
-The legacy site includes a sticky, dismissible upgrade banner that guides users to the latest version without forcing redirects.
+👉 **New & Enhanced Docs (v2):**  
+[https://docs.yoursite.com/v2](https://docs.yoursite.com/v2)
 
-✨ Features
+> To guide users safely, the site includes a **sticky, manually closeable warning banner** that links to the new documentation — without forcing redirects.  
+This follows the same pattern used by **Stripe**, **GitHub**, **AWS**, and **Vercel**.
 
-📄 Pure HTML & CSS only
+---
 
-🧭 Clean documentation layout (Header · Sidebar · Content)
+## ✨ Features
 
-📱 Fully responsive
+- ✅ Pure HTML & CSS only  
+- ✅ No JavaScript  
+- ✅ No dependencies  
+- ✅ No build step  
+- ✅ Fully responsive layout  
+- ✅ Clean documentation structure (**Header · Sidebar · Content**)  
+- ✅ Modular CSS architecture  
+- ✅ Sticky legacy warning banner  
+- ✅ Manually dismissible banner (CSS-only checkbox hack)  
+- ✅ Clear navigation to new docs (v2)
 
-🧩 Modular CSS architecture
+---
 
-⚠️ Sticky legacy warning banner
+## 🧱 Layout Overview
 
-❌ Manually closeable banner (pure CSS checkbox hack)
+```text
+┌─────────────────────────────────┐
+│ Sticky Legacy Warning Banner    │
+├─────────────────────────────────┤
+│ Header (Logo + Navigation)      │
+├───────────────┬─────────────────┤
+│ Sidebar Nav   │ Main Content    │
+│               │ Documentation   │
+├───────────────┴─────────────────┤
+│ Footer                          │
+└─────────────────────────────────┘
+```
+## 📁 Project Structure
 
-🔗 Clear navigation to new documentation (v2)
-
-🚫 No JavaScript
-
-🚫 No dependencies
-
-🚫 No build step
-
-🖼️ Layout Overview
-┌─────────────────────────────┐
-│ Sticky Legacy Warning Bar   │
-├─────────────────────────────┤
-│ Header (Logo + Nav)         │
-├──────────────┬──────────────┤
-│ Sidebar Nav  │ Main Content │
-│              │              │
-├──────────────┴──────────────┤
-│ Footer                      │
-└─────────────────────────────┘
-
-📁 Project Structure
 slate-docs/
 │
 ├── index.html
 ├── styles/
-│   ├── base.css        # Reset & base styles
-│   ├── layout.css     # Page layout (header, sidebar, content)
-│   └── components.css # Callouts, buttons, utilities
+│   ├── base.css         # Reset & base styles
+│   ├── layout.css       # Page layout (header, sidebar, content)
+│   └── components.css   # Callouts, utilities, components
 │
 └── README.md
+---
+## 🚀 Getting Started
+1. Clone the repository
+git clone https://github.com/babul101/slate-docs.git
 
-🚀 Getting Started
-1️⃣ Clone the repository
-git clone https://github.com/your-username/slate-docs.git
+2. Open locally
+   Open index.html directly in your browser.
+   That’s it — no installation, no tooling, no configuration.
 
-2️⃣ Open locally
+⚠️ Legacy Warning Banner (Technical Details)
+The legacy banner is:
 
-Simply open index.html in your browser.
+Sticky using position: sticky
 
-That’s it.
-No install. No build. No tooling.
+Perfectly centered with CSS Grid
 
-⚠️ Legacy Upgrade Banner (How It Works)
+Manually closeable using a hidden checkbox
 
-The banner is sticky at the top
+JavaScript-free
 
-Uses CSS Grid for perfect centering
+Reappears on refresh (intentional for legacy notices)
 
-Uses a hidden checkbox to allow manual close
+Why no JavaScript?
+Keeps the project minimal
 
-No JavaScript
+Avoids runtime dependencies
 
-Reappears on page refresh (intentional)
+Aligns with the static-docs philosophy
 
-This follows industry-standard docs UX used by Stripe, GitHub, AWS, and Vercel.
-
-🔄 Versioning Strategy
-Version	Status	URL
-v1	Legacy	/v1 or current site
-v2	Active	/v2
-
+🔄 Documentation Versioning Strategy
+Version	Status	Purpose
+v1	Legacy	Backward compatibility
+v2	Active	New features & enhancements
 Why keep v1 live?
+Existing users still depend on it
 
-Existing users rely on it
+Prevents broken bookmarks
 
-Prevents breaking bookmarks
+Enables gradual migration
 
-Allows gradual migration
+Follows professional documentation practices
 
-Professional documentation practice
-
-🛠️ Customization
-
+🛠️ Customization Guide
 You can easily:
 
-Update the new docs URL
+Change the new docs URL
 
-Change banner colors
+Adjust banner colors
 
-Make banner persistent (with JS + localStorage)
+Move banner CSS into a stylesheet
 
-Add a version switcher
+Add a version badge (e.g. v1 · Legacy)
 
-Add SEO noindex for legacy
+Add a noindex meta tag for SEO on legacy pages
 
-📌 Recommended Enhancements (Optional)
+Introduce persistent dismissal (optional, with JS)
 
-Version badge (v1 · Legacy)
+🔮 Recommended Next Enhancements
+Version switcher dropdown
 
-Dismiss animation
-
-Persistent banner close
-
-Dark/light theme sync
-
-Reverse link from v2 → v1
+Migration guide (v1 → v2)
 
 Changelog page
 
-📜 License
+Reverse link from v2 → v1
 
-This project is open-source and free to use.
-Choose a license that fits your needs (MIT recommended).
+Dark/light theme support
+
+Documentation deprecation timeline
+
+📜 License
+This project is open source.
+MIT License is recommended for maximum flexibility, but you may choose any license that fits your needs.
 
 🙌 Credits
-
-Built with ❤️ using HTML & CSS only
-Inspired by modern documentation systems.
-
+Built with ❤️ using HTML & CSS only.
+Inspired by modern documentation systems.   

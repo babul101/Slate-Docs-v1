@@ -85,22 +85,25 @@ slate-docs/
 
 The legacy banner is:
 
-Sticky using position: sticky
+* Sticky using position: sticky
 
-Perfectly centered with CSS Grid
+* Perfectly centered with CSS Grid
 
-Manually closeable using a hidden checkbox
+* Manually closeable using a hidden checkbox
 
-JavaScript-free
+* JavaScript-free
 
-Reappears on refresh (intentional for legacy notices)
+* Reappears on refresh (intentional for legacy notices)
 
-Why no JavaScript?
-Keeps the project minimal
+# Why no JavaScript?
 
-Avoids runtime dependencies
+* Keeps the project minimal
 
-Aligns with the static-docs philosophy
+* Avoids runtime dependencies
+
+* Aligns with the static-docs philosophy
+
+
 ---
 
 ## 🔄 Documentation Versioning Strategy

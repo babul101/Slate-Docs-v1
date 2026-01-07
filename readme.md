@@ -12,7 +12,7 @@ No JavaScript. No frameworks. No build tools.
 This is the **legacy version (v1)** of SLATE Docs.
 
 👉 **New & Enhanced Docs (v2):**  
-[https://docs.yoursite.com/v2](https://docs.yoursite.com/v2)
+[Coming Soon](https://docs.yoursite.com/v2)
 
 > To guide users safely, the site includes a **sticky, manually closeable warning banner** that links to the new documentation — without forcing redirects.  
 This follows the same pattern used by **Stripe**, **GitHub**, **AWS**, and **Vercel**.
@@ -111,7 +111,7 @@ The legacy banner is:
 | Version | Status | Purpose                     |
 |---------|--------|-----------------------------|
 | v1      | Legacy | Backward compatibility      |
-| v2      | Active | New features & enhancements |
+| v2      | In Progress | [Coming Soon] |
 
 ## Why keep v1 live?
 

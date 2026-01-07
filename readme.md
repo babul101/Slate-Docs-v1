@@ -95,7 +95,7 @@ The legacy banner is:
 
 * Reappears on refresh (intentional for legacy notices)
 
-# Why no JavaScript?
+## Why no JavaScript?
 
 * Keeps the project minimal
 
@@ -108,51 +108,54 @@ The legacy banner is:
 
 ## 🔄 Documentation Versioning Strategy
 
-Version	Status	Purpose
-v1	Legacy	Backward compatibility
-v2	Active	New features & enhancements
-Why keep v1 live?
-Existing users still depend on it
+| Version | Status | Purpose                     |
+|---------|--------|-----------------------------|
+| v1      | Legacy | Backward compatibility      |
+| v2      | Active | New features & enhancements |
 
-Prevents broken bookmarks
+## Why keep v1 live?
 
-Enables gradual migration
+* Existing users still depend on it
 
-Follows professional documentation practices
+* Prevents broken bookmarks
+
+* Enables gradual migration
+
+* Follows professional documentation practices
 
 ---
 
 ## 🛠️ Customization Guide
 
-You can easily:
+### You can easily:
 
-Change the new docs URL
+* Change the new docs URL
 
-Adjust banner colors
+* Adjust banner colors
 
-Move banner CSS into a stylesheet
+* Move banner CSS into a stylesheet
 
-Add a version badge (e.g. v1 · Legacy)
+* Add a version badge (e.g. v1 · Legacy)
 
-Add a noindex meta tag for SEO on legacy pages
+* Add a noindex meta tag for SEO on legacy pages
 
-Introduce persistent dismissal (optional, with JS)
+* Introduce persistent dismissal (optional, with JS)
 
 ---
 
 ## 🔮 Recommended Next Enhancements
 
-Version switcher dropdown
+* Version switcher dropdown
 
-Migration guide (v1 → v2)
+* Migration guide (v1 → v2)
 
-Changelog page
+* Changelog page
 
-Reverse link from v2 → v1
+* Reverse link from v2 → v1
 
-Dark/light theme support
+* Dark/light theme support
 
-Documentation deprecation timeline
+* Documentation deprecation timeline
 
 ---
 

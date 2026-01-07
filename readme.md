@@ -59,7 +59,7 @@ slate-docs/
 │   └── components.css   # Callouts, utilities, components
 │
 └── README.md
-```
+
 ## 🚀 Getting Started
 
 1. Clone the repository

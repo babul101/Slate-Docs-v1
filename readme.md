@@ -48,7 +48,11 @@ This follows the same pattern used by **Stripe**, **GitHub**, **AWS**, and **Ver
 │ Footer                          │
 └─────────────────────────────────┘
 ```
+
+---
 ## 📁 Project Structure
+
+```text
 
 slate-docs/
 │
@@ -60,14 +64,22 @@ slate-docs/
 │
 └── README.md
 
+```
+
+---
+
 ## 🚀 Getting Started
 
 1. Clone the repository
+    ```bash
     git clone https://github.com/babul101/slate-docs.git
+    ```
 
 2. Open locally
    Open index.html directly in your browser.
    That’s it — no installation, no tooling, no configuration.
+
+   ---
 
 ## ⚠️ Legacy Warning Banner (Technical Details)
 
@@ -89,6 +101,7 @@ Keeps the project minimal
 Avoids runtime dependencies
 
 Aligns with the static-docs philosophy
+---
 
 ## 🔄 Documentation Versioning Strategy
 
@@ -103,6 +116,8 @@ Prevents broken bookmarks
 Enables gradual migration
 
 Follows professional documentation practices
+
+---
 
 ## 🛠️ Customization Guide
 
@@ -120,6 +135,8 @@ Add a noindex meta tag for SEO on legacy pages
 
 Introduce persistent dismissal (optional, with JS)
 
+---
+
 ## 🔮 Recommended Next Enhancements
 
 Version switcher dropdown
@@ -134,10 +151,14 @@ Dark/light theme support
 
 Documentation deprecation timeline
 
+---
+
 ## 📜 License
 
 This project is open source.
 MIT License is recommended for maximum flexibility, but you may choose any license that fits your needs.
+
+---
 
 ## 🙌 Credits
 

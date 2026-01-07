@@ -1,24 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slate Docs</title>
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet" href="styles/components.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+  </head>
+  <body>
     <!-- Header -->
-     <header class="site-header">
-        <div class="container header-inner">
-            <h1 class="logo">SLATE Docs</h1>
-            <nav class="header-nav">
-                <a href="#">Docs</a>
-                <a href="#">Github</a>
-                <a href="#">About</a>
-            </nav>
-        </div>
-     </header>
-</body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 class="logo">SLATE Docs</h1>
+        <nav class="header-nav">
+          <a href="#">Docs</a>
+          <a href="#">Github</a>
+          <a href="#">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Layout -->
+    <main class="docs-layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <nav class="sidebar-nav">
+          <h3>Getting Started</h3>
+          <ul>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#install">Installation</a></li>
+            <li><a href="#usage">Usage</a></li>
+          </ul>
+          <h3>Guides</h3>
+          <ul>
+            <li><a href="#best">Best Practices</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Content -->
+      <section class="content">
+        <article id="intro">
+          <h2>Introduction</h2>
+          <p>
+            SLATE Docs is a minimal, clean documentation layout built entirely
+            using HTML and CSS. It focuses on readability, structure, and
+            clarity.
+          </p>
+          <div class="callout info">
+            This project uses no JavaScript. All layout behavior is pure CSS.
+          </div>
+        </article>
+        <article id="install">
+          <h2>Installation</h2>
+          <p>
+            Simply clone the repository and open <code>index.html</code> in your
+            browser.
+          </p>
+          <div class="callout warning">
+            No build tools or dependencies are required.
+          </div>
+        </article>
+        <article id="usage">
+          <h2>Usage</h2>
+          <p>
+            Use this layout as a base for documentation, internal tools, or
+            static knowledge bases.
+          </p>
+          <div class="callout tip">
+            Keep sections short and scannable for best readability.
+          </div>
+        </article>
+        <article id="best">
+          <h2>Best Practices</h2>
+          <ul>
+            <li>Use Sematic HTML</li>
+            <li>Limit line length</li>
+            <li>Maintain visual hierarchy</li>
+            <li>Design for reading</li>
+          </ul>
+        </article>
+        <article id="faq">
+          <h2>FAQ</h2>
+          <p>
+            <strong>Does this support mobile?</strong> Yes, it is responsive.
+          </p>
+          <p><strong>Can I extend it?</strong> Absolutely.</p>
+        </article>
+      </section>
+    </main>
+    <!-- Footer -->
+     <footer class="site-footer">
+        <p>© 2026 SLATE Docs — Built with HTML & CSS only.</p>
+     </footer>
+  </body>
 </html>

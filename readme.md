@@ -111,7 +111,7 @@ The legacy banner is:
 | Version | Status | Purpose                     |
 |---------|--------|-----------------------------|
 | v1      | Legacy | Backward compatibility      |
-| v2      | In Progress | Coming Soon |
+| v2      | In Progress | [Coming Soon](#) |
 
 ## Why keep v1 live?
 

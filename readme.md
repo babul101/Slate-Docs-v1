@@ -125,24 +125,6 @@ The legacy banner is:
 
 ---
 
-## 🛠️ Customization Guide
-
-### You can easily:
-
-* Change the new docs URL
-
-* Adjust banner colors
-
-* Move banner CSS into a stylesheet
-
-* Add a version badge (e.g. v1 · Legacy)
-
-* Add a noindex meta tag for SEO on legacy pages
-
-* Introduce persistent dismissal (optional, with JS)
-
----
-
 ## 🔮 Recommended Next Enhancements
 
 * Version switcher dropdown
